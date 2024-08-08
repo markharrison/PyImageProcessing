@@ -14,7 +14,7 @@ y2, x2 = 2500, 2000  # Bottom-right corner of ROI
 cropped_img = img_array[y1:y2, x1:x2]
 
 # Display the original image and the cropped image
-plt.figure(figsize=(20, 10))
+plt.figure(figsize=(10, 5))
 
 # Display the original image
 plt.subplot(1, 2, 1)
